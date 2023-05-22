@@ -17,7 +17,7 @@ body {
   background: #141414;
   color: #f3f3f3;
 }
-img {
+.image-logo {
   max-width: 40px;
   height: auto;
 }
@@ -41,7 +41,7 @@ ul {
 .nav {
   width: 70%;
 }
-
+.
 /*
 a:link - a normal, unvisited link.
 a:visited - a link the user has visited.
@@ -49,13 +49,33 @@ a:hover - a link when the user mouses over it.
 a:active - a link the moment it is clicked.
 */
 
-a {
+a{
   text-decoration: none;
-}
+} 
 
 a:visited {
   color: #f3f3f3;
 }
 a:hover {
   color: #686868;
+}
+
+.main{
+  display: flex;
+  /* justify-content:center;
+  align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.popular{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular>img {
+  width: 250px;
+  height: auto;
 }
