@@ -18,7 +18,7 @@ body {
   color: #f3f3f3;
 }
 .image-logo {
-  max-width: 40px;
+  max-width: 80px;
   height: auto;
 }
 
@@ -27,6 +27,7 @@ ul {
   justify-content: space-around;
   list-style: none;
 }
+
 
 .hero {
   display: flex;
@@ -40,8 +41,9 @@ ul {
 
 .nav {
   width: 70%;
+
 }
-.
+
 /*
 a:link - a normal, unvisited link.
 a:visited - a link the user has visited.
@@ -51,7 +53,9 @@ a:active - a link the moment it is clicked.
 
 a{
   text-decoration: none;
-} 
+  font-size: 1.2rem;
+}
+
 
 a:visited {
   color: #f3f3f3;
@@ -70,12 +74,21 @@ a:hover {
 }
 .popular{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
+h2 {
+  padding: 1rem;
+  font-size: 2rem;
+}
 
 .popular>img {
-  width: 250px;
-  height: auto;
+width: 250px;
+height: auto;
+margin: 1rem;
+}
+.popular>img:hover{
+  transform: scale(1.2);
+  transition: 0.2s;
 }
